@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3.8em !important;
+  width: 6em !important;
 }
 
 .navbar-nav .nav-link {
@@ -307,7 +307,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 6.5em !important;
 }
 
 @media (max-width: 767px) {
@@ -406,24 +406,8 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
-}
-.footer-copywright {
   text-align: center !important;
-}
-
-.footer-body {
   z-index: 1;
-  text-align: center !important;
-}
-
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
 }
 
 .footer h3 {
@@ -432,15 +416,7 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
-.footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-  padding: 0 !important;
-}
 
-.blockquote-footer {
-  color: #a588c0 !important;
-}
 /* --------- */
 /* Projects */
 /* --------- */

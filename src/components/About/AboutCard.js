@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,33 +7,18 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hello Everyone, I am <span className="purple">Robert Lute </span>
+            from <span className="purple"> Denver, Colorado</span>
+            . I have dual degrees from Pikes Peak Community College <span className="purple"> Computer Information Systems </span>
+            and <span className="purple"> Computer Network Technology - Cisco CCNA</span> 
+            . I also attended <span className="purple"> Coding Dojo/Colorado Technical University </span> for 
+            <span className="purple"> Full Stack Development</span> 
+            . 
             <br />
-            I am currently employed as a software developer at Juspay.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            I'm not just looking for another job, I am searching for a stable company 
+            where my rare talents and dedication can help both the company and my career progress. 
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

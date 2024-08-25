@@ -1,12 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,37 +15,65 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a passionate and dedicated Developer with a pasion for creating solutions that
+              are not only effective but also enhance user experiences and streamline the processes.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              As an example I am proud that at my last employment role, ticket volumes decreased by 30% due to 
+              my workflow refinements and budget reduced 20% from my application maintenance with database report automation. 
+              <br />
+              <br />
+              I am fluent in multiple programming languages like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> JavaScript</b>
+              </i>
+              ,
+              <i>
+                <b className="purple"> Python</b>
+              </i>
+              ,
+              <i>
+                <b className="purple"> Java</b>
+              </i>
+              ,
+              <i>
+                <b className="purple"> SQL</b>
+              </i>
+              , and more.
+              <br />
+              <br />
+              My personal hobbies are video games like
+              <i>
+                <b className="purple"> (
+                  Platformers, 
+                  RPGs, Tactical, 
+                  Survival, 
+                  Turnbase & Realtime Strategy, 
+                  Shooters, 
+                  Puzzle, 
+                  MMOs, 
+                  Action Adventure, 
+                  Sandbox
+                  )</b>
+                .
+                <br />
+                <br />
+                Recently I have been learning about 
+                <b className="purple"> NFTs </b>
+                , 
+                <b className="purple"> Blockchain Technology </b>
+                and 
+                <b className="purple"> Web3 </b>
+                for fun. My favorite blockchains are
+                <b className="purple"> Ethereum </b>
+                and 
+                <b className="purple"> Cardano</b>
+                and 
+                <b className="purple"> Polygon</b>
+                . I am not a crypto bro, but I do think that every new technology should be explored and lessons can be learned.
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +91,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/getrobertajob"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +101,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/_ServerError_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +111,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/robert-lute/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +121,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/crypto.yolo.lambo/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
