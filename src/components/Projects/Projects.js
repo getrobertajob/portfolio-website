@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import dojoPizza from "../../Assets/Projects/DojoPizza.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import rankAndSave from "../../Assets/Projects/RankAndSave.png";
 import targetBlaster from "../../Assets/Projects/TargetBlaster.png";
@@ -42,7 +42,7 @@ function Projects() {
               Use your limited range detection equipment to locate and remove mines inorder to earn points. Get huge bonus points for clearing the whole field
               quickly. Thread carefully as each step might be your last."
               ghLink="https://github.com/getrobertajob/minesweeper-the-last-step"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              // demoLink=""
             />
           </Col>
 
@@ -61,12 +61,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={dojoPizza}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Dojo Pizzeria"
+              description="Website for Dojo Pizzeria. Includes pizza builder to guide user through placing order. Dynamically updates based on selections."
+              ghLink="https://github.com/getrobertajob/Mockup-Dojo_Pizzeria_Website"
+              demoLink="https://mockup-dojo-pizzeria-website.vercel.app/"
             />
           </Col>
 
