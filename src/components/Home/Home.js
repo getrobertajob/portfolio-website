@@ -2,9 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import homeCode from "../../Assets/home-code.gif";
+import myImg from "../../Assets/avatar.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Tilt from "react-parallax-tilt";
+
+
+
+
+
+
+
+
 
 function Home() {
   return (
@@ -23,23 +33,26 @@ function Home() {
 
               <h1 className="heading-name">
                 My name is
-                <strong className="main-name"> Robert Lute</strong>
-                , and I have worn many hats in my career.
+                <strong className="main-name"> Robert Lute</strong>, and I have worn many hats in my
+                career.
               </h1>
 
-              <div style={{ marginLeft:45, marginTop: "-10px", paddingTop: 0, textAlign: "left" }}>
+              <div style={{ marginLeft: 45, marginTop: "-10px", paddingTop: 0, textAlign: "left" }}>
                 <Type />
               </div>
-            </Col> 
- 
+            </Col>
+
             <Col md={5}>
               <img
-                src={homeCode}
+                src={myImg}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
             </Col>
+            {/* <Col md={4} className="myAvtar">
+                <img src={myImg} className="img-fluid" alt="avatar" />
+            </Col> */}
           </Row>
         </Container>
       </Container>
