@@ -6,7 +6,7 @@ import dojoPizza from "../../Assets/Projects/DojoPizza.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import rankAndSave from "../../Assets/Projects/RankAndSave.png";
 import targetBlaster from "../../Assets/Projects/TargetBlaster.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import toDoList from "../../Assets/Projects/ToDoList.png";
 import mineSweeper from "../../Assets/Projects/MineSweeper.png";
 
 function Projects() {
@@ -72,12 +72,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={toDoList}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="To-Do List webapp"
+              description="standard To Do List webapp. Create, Read, Update, & Delete. Simple and usefull."
+              ghLink="https://github.com/getrobertajob/To-Do-List"
+              // demoLink=""
             />
           </Col>
 
