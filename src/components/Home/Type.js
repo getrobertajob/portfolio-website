@@ -1,28 +1,30 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import "./ScrollingText.css";
 
-function Type() {
+
+function ScrollingText() {
   return (
-    <Typewriter
-      options={{
-        strings: [
-          "Front-End Developer",
-          "Back-End Developer",
-          "Tier 1 Tech Support",
-          "Tier 2 Tech Support",
-          "Senior Application Support",
-          "Development & Dev Ops Support",
-          "QA Test Tech",
-          "Database Administrator",
-          "Server Maintenance Technician",
-          "Freelancer",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
+    <div className="ticker-wrapper">
+      <div className="ticker">
+        <span className="ticker-item">Front-End Developer , </span>
+        <span className="ticker-item">Back-End Developer , </span>
+        <span className="ticker-item">Tier 1 Tech Support , </span>
+        <span className="ticker-item">Tier 2 Tech Support , </span>
+        <span className="ticker-item">Senior Application Support , </span>
+        <span className="ticker-item">Development & Dev Ops Support , </span>
+        <span className="ticker-item">QA Test Tech , </span>
+        <span className="ticker-item">Database Administrator , </span>
+        <span className="ticker-item">Server Maintenance Technician , </span>
+        <span className="ticker-item">Freelancer , </span>
+        <span className="ticker-item">Data Migration Technician , </span>
+        <span className="ticker-item">Customer Service , </span>
+        <span className="ticker-item">Team Lead , </span>
+        <span className="ticker-item">Technical Trainer , </span>
+        <span className="ticker-item">Technical Writer , </span>
+        <span className="ticker-item">Escalation Manager , </span>
+      </div>
+    </div>
   );
 }
 
-export default Type;
+export default ScrollingText;
