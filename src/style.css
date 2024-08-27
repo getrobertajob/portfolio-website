@@ -250,6 +250,10 @@ button:focus {
   height: 100%;
 }
 
+.img-fluid{
+  opacity: .99 !important;
+}
+
 .home-header {
   padding-top: 80px !important;
 }

@@ -11,33 +11,43 @@ function Particle() {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 500,
             },
           },
           line_linked: {
             enable: false,
-            opacity: 0.03,
+            opacity: .1,
           },
           move: {
-            direction: "right",
-            speed: 0.05,
-          },
+            direction: "top-left",
+            enable: true,
+            // outModes: {
+            //     default: "none",
+            // },
+            random: true,
+            speed: 6,
+            straight: true,
+        },
           size: {
             value: 1,
           },
           opacity: {
             anim: {
               enable: true,
-              speed: 1,
-              opacity_min: 0.05,
+              speed: 2,
+              opacity_min: .3,
             },
           },
         },
         interactivity: {
           events: {
-            onclick: {
+            // onclick: {
+            //   enable: true,
+            //   mode: "push",
+            // },
+            onHover: {
               enable: true,
-              mode: "push",
+              mode: "grab",
             },
           },
           modes: {
