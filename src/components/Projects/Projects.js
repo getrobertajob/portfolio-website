@@ -3,11 +3,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import dojoPizza from "../../Assets/Projects/DojoPizza.png";
-// import emotion from "../../Assets/Projects/emotion.png";
 import rankAndSave from "../../Assets/Projects/RankAndSave.png";
 import targetBlaster from "../../Assets/Projects/TargetBlaster.png";
+import taskQuest from "../../Assets/Projects/TaskQuest.png";
 import toDoList from "../../Assets/Projects/ToDoList.png";
 import mineSweeper from "../../Assets/Projects/MineSweeper.png";
+import taskQuestFS from "../../Assets/Projects/TaskQuest_Fullsize.png";  
+import targetBlasterFS from "../../Assets/Projects/TargetBlaster_Fullsize.png";  
+import mineSweeperFS from "../../Assets/Projects/MineSweeper_Fullsize.png";  
+import rankAndSaveFS from "../../Assets/Projects/RankAndSave_Fullsize.png";  // Added full-size image path for Rank and Save
+import dojoPizzaFS from "../../Assets/Projects/DojoPizza_Fullsize.png";  // Added full-size image path for Dojo Pizzeria
 
 function Projects() {
   return (
@@ -21,6 +26,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={taskQuest}
+              isBlog={false}
+              title="TaskQuest: The To-Do List Saga"
+              description="Embark on an epic quest where the lines between reality and fantasy blur! 
+              In TaskQuest: The To-Do List Saga, take on the role of a hero caught between two 
+              worlds—one of everyday tasks and one of mythical challenges. Balance your real-life 
+              to-do list with thrilling RPG adventures, slay mundane monsters like the Laundry Beast, 
+              conquer the Paper Stack Dragon, and level up your character as you complete quests in 
+              both realms. Can you maintain harmony between these worlds and become the ultimate 
+              champion of productivity?"
+              ghLink="https://github.com/getrobertajob/task-quest"
+              fullSizeImage={taskQuestFS}  // Passed fullSizeImage as a prop
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={targetBlaster}
               isBlog={false}
               title="Target Blaster"
@@ -30,6 +52,7 @@ function Projects() {
               It's really not a fair from the targets perspective."
               ghLink="https://github.com/getrobertajob/target-blaster"
               demoLink="https://target-blaster-prod.vercel.app/"
+              fullSizeImage={targetBlasterFS}  // Passed fullSizeImage as a prop
             />
           </Col>
 
@@ -42,7 +65,7 @@ function Projects() {
               Use your limited range detection equipment to locate and remove mines inorder to earn points. Get huge bonus points for clearing the whole field
               quickly. Thread carefully as each step might be your last."
               ghLink="https://github.com/getrobertajob/minesweeper-the-last-step"
-              // demoLink=""
+              fullSizeImage={mineSweeperFS}  // Passed fullSizeImage as a prop
             />
           </Col>
 
@@ -56,6 +79,7 @@ function Projects() {
               Includes a voting/ranking system with limitations for even non-registered users to avoid system abuse."
               ghLink="https://github.com/getrobertajob/rank-and-save"
               demoLink="https://rank-and-save-client.vercel.app/"
+              fullSizeImage={rankAndSaveFS}  // Passed fullSizeImage as a prop
             />
           </Col>
 
@@ -67,30 +91,12 @@ function Projects() {
               description="Website for Dojo Pizzeria. Includes pizza builder to guide user through placing order. Dynamically updates based on selections."
               ghLink="https://github.com/getrobertajob/Mockup-Dojo_Pizzeria_Website"
               demoLink="https://mockup-dojo-pizzeria-website.vercel.app/"
+              fullSizeImage={dojoPizzaFS}  // Passed fullSizeImage as a prop
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={toDoList}
-              isBlog={false}
-              title="To-Do List webapp"
-              description="standard To Do List webapp. Create, Read, Update, & Delete. Simple and usefull."
-              ghLink="https://github.com/getrobertajob/To-Do-List"
-              // demoLink=""
-            />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title=""
-              description=""
-              ghLink=""
-              // demoLink=""
-            />
-          </Col> */}
+          {/* Repeat for other ProjectCards and add fullSizeImage prop */}
+          {/* ... */}
         </Row>
       </Container>
     </Container>
