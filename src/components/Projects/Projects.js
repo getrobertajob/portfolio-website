@@ -12,8 +12,8 @@ import targetBlasterFS from "../../Assets/Projects/TargetBlaster_Fullsize.png";
 import mineSweeperFS from "../../Assets/Projects/MineSweeper_Fullsize.png";  
 import rankAndSaveFS from "../../Assets/Projects/RankAndSave_Fullsize.png";
 import dojoPizzaFS from "../../Assets/Projects/DojoPizza_Fullsize.png";
-import wrapStar from "../../Assets/Projects/wrapstar.png";
-import wrapStarFS from "../../Assets/Projects/wrapstar_Fullsize.jpg";
+import wrapStar from "../../Assets/Projects/wrapStar.png";
+import wrapStarFS from "../../Assets/Projects/wrapStar_Fullsize.jpg";
 
 function Projects() {
   return (
