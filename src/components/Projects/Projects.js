@@ -12,6 +12,8 @@ import targetBlasterFS from "../../Assets/Projects/TargetBlaster_Fullsize.png";
 import mineSweeperFS from "../../Assets/Projects/MineSweeper_Fullsize.png";  
 import rankAndSaveFS from "../../Assets/Projects/RankAndSave_Fullsize.png";
 import dojoPizzaFS from "../../Assets/Projects/DojoPizza_Fullsize.png";
+import wrapStar from "../../Assets/Projects/wrapstar.png";
+import wrapStarFS from "../../Assets/Projects/wrapstar_Fullsize.jpg";
 
 function Projects() {
   return (
@@ -22,15 +24,11 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
-
-        <form action="https://wrapstar-robert-lutes-projects.vercel.app">
-          <input type="submit" value="Wrap Star" />
-        </form>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={taskQuest}
+              imgPath={wrapStar}
               isBlog={false}
               title="Wrap Star"
               description="A simple web app that lets the user make a custom wrapping paper 
@@ -43,7 +41,7 @@ function Projects() {
               whatever and use it as wrapping paper." 
               ghLink="https://github.com/getrobertajob/wrapstar"
               demoLink="https://wrapstar-robert-lutes-projects.vercel.app"
-              fullSizeImage={taskQuestFS}  
+              fullSizeImage={wrapStarFS}  
             />
           </Col>
 
