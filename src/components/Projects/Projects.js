@@ -22,7 +22,7 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
-        <p style={{ color: "white" }}>https://wrapstar-robert-lutes-projects.vercel.app</p>
+        <a href="https://wrapstar-robert-lutes-projects.vercel.app">https://wrapstar-robert-lutes-projects.vercel.app</a>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
