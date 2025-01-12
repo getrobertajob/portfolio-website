@@ -22,12 +22,31 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
-        
+
         <form action="https://wrapstar-robert-lutes-projects.vercel.app">
           <input type="submit" value="Wrap Star" />
         </form>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taskQuest}
+              isBlog={false}
+              title="Wrap Star"
+              description="A simple web app that lets the user make a custom wrapping paper 
+              by building a collage of their favorite celebrities face. Just input the name of a 
+              celebrity and click the search button. It will go out onto the internet and make a 
+              5x5 picture grid of face shots for that celebrity. When the user is ready they can 
+              then save the file. It will then take that same 5x5 picture grip and replicate it 
+              into it's own 4x4 picture grip. This creates a total of 400 images as a 40 inch by 
+              40 inch image in png file format. This way the user can print this at a Kinkos or 
+              whatever and use it as wrapping paper." 
+              ghLink="https://github.com/getrobertajob/wrapstar"
+              demoLink="https://wrapstar-robert-lutes-projects.vercel.app"
+              fullSizeImage={taskQuestFS}  
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taskQuest}
