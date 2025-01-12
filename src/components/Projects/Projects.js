@@ -6,13 +6,12 @@ import dojoPizza from "../../Assets/Projects/DojoPizza.png";
 import rankAndSave from "../../Assets/Projects/RankAndSave.png";
 import targetBlaster from "../../Assets/Projects/TargetBlaster.png";
 import taskQuest from "../../Assets/Projects/TaskQuest.png";
-import toDoList from "../../Assets/Projects/ToDoList.png";
 import mineSweeper from "../../Assets/Projects/MineSweeper.png";
 import taskQuestFS from "../../Assets/Projects/TaskQuest_Fullsize.png";  
 import targetBlasterFS from "../../Assets/Projects/TargetBlaster_Fullsize.png";  
 import mineSweeperFS from "../../Assets/Projects/MineSweeper_Fullsize.png";  
-import rankAndSaveFS from "../../Assets/Projects/RankAndSave_Fullsize.png";  // Added full-size image path for Rank and Save
-import dojoPizzaFS from "../../Assets/Projects/DojoPizza_Fullsize.png";  // Added full-size image path for Dojo Pizzeria
+import rankAndSaveFS from "../../Assets/Projects/RankAndSave_Fullsize.png";
+import dojoPizzaFS from "../../Assets/Projects/DojoPizza_Fullsize.png";
 
 function Projects() {
   return (
@@ -23,6 +22,8 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
+        <p style={{ color: "white" }}>https://wrapstar-robert-lutes-projects.vercel.app</p>
+        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -37,7 +38,7 @@ function Projects() {
               both realms. Can you maintain harmony between these worlds and become the ultimate 
               champion of productivity?"
               ghLink="https://github.com/getrobertajob/task-quest"
-              fullSizeImage={taskQuestFS}  // Passed fullSizeImage as a prop
+              fullSizeImage={taskQuestFS}  
             />
           </Col>
 
@@ -52,7 +53,7 @@ function Projects() {
               It's really not a fair from the targets perspective."
               ghLink="https://github.com/getrobertajob/target-blaster"
               demoLink="https://target-blaster-prod.vercel.app/"
-              fullSizeImage={targetBlasterFS}  // Passed fullSizeImage as a prop
+              fullSizeImage={targetBlasterFS}  
             />
           </Col>
 
@@ -65,7 +66,7 @@ function Projects() {
               Use your limited range detection equipment to locate and remove mines inorder to earn points. Get huge bonus points for clearing the whole field
               quickly. Thread carefully as each step might be your last."
               ghLink="https://github.com/getrobertajob/minesweeper-the-last-step"
-              fullSizeImage={mineSweeperFS}  // Passed fullSizeImage as a prop
+              fullSizeImage={mineSweeperFS}  
             />
           </Col>
 
@@ -79,7 +80,7 @@ function Projects() {
               Includes a voting/ranking system with limitations for even non-registered users to avoid system abuse."
               ghLink="https://github.com/getrobertajob/rank-and-save"
               demoLink="https://rank-and-save-client.vercel.app/"
-              fullSizeImage={rankAndSaveFS}  // Passed fullSizeImage as a prop
+              fullSizeImage={rankAndSaveFS}  
             />
           </Col>
 
@@ -91,12 +92,10 @@ function Projects() {
               description="Website for Dojo Pizzeria. Includes pizza builder to guide user through placing order. Dynamically updates based on selections."
               ghLink="https://github.com/getrobertajob/Mockup-Dojo_Pizzeria_Website"
               demoLink="https://mockup-dojo-pizzeria-website.vercel.app/"
-              fullSizeImage={dojoPizzaFS}  // Passed fullSizeImage as a prop
+              fullSizeImage={dojoPizzaFS}  
             />
           </Col>
 
-          {/* Repeat for other ProjectCards and add fullSizeImage prop */}
-          {/* ... */}
         </Row>
       </Container>
     </Container>
