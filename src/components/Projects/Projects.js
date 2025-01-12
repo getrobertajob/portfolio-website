@@ -22,7 +22,10 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
-        <a href="https://wrapstar-robert-lutes-projects.vercel.app">https://wrapstar-robert-lutes-projects.vercel.app</a>
+        
+        <form action="https://wrapstar-robert-lutes-projects.vercel.app">
+          <input type="submit" value="Wrap Star" />
+        </form>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
